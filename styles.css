@@ -1,27 +1,4 @@
-@keyframes scrollNewsRight {
-  0% { 
-    transform: translateX(-100%); 
-    left: 0; 
-  }
-  100% { 
-    transform: translateX(0); 
-    left: 100%; 
-  }
-}
 
-.scrolling-group {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  position: absolute;
-  white-space: nowrap;
-  animation: scrollNewsRight 20s linear infinite;
-}
-
-.scrolling-group img {
-  height: 50px;
-  object-fit: contain;
-}
 
 #navbar {
   top: 0;
